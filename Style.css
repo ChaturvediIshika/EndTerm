@@ -1,0 +1,60 @@
+body{
+    background-color: darkgoldenrod;
+}
+#home{
+    height: 400px;
+    margin:50px 100px;
+    background-color: aqua;
+    border-radius: 20px;
+    background-image: url("https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?cs=srgb&dl=pexels-mateusz-dach-450035.jpg&fm=jpg");
+    background-size: cover;
+}
+.container{
+    margin: 50px 100px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(5,1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+    height: 100vh;
+    
+}
+#book{
+    background-color: white;
+    grid-row-start: 1;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.c{
+    background-color: white;
+}
+.title{
+    background-color: gainsboro;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    margin: 0;
+    padding-left: 50px;
+}
+#book p{
+    font-size: 30px;
+    padding: 10px;
+}
+input{
+    height: 40px;
+    width: 250px;
+    margin: 20px 0px 20px 20px;
+}
+button{
+    height: 40px;
+    width: 150px;
+    margin: 20px 20px 20px 0px;
+}
+#select a{
+    font-size: 20px;
+    padding: 10px;
+}
